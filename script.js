@@ -35,7 +35,7 @@ document.getElementById('studentForm').addEventListener('submit', function(e) {
         }
     ];
     
-    fetch('https://script.google.com/macros/s/AKfycbx2S-nTalwMubzRjYQkwdC6P5AQQg4Z4pPcEANsxU_543aLV0JBLK-qvpShHWKJ9LGo6w/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbyl9oRXdkGwgHkDBBTg-IouKvdzRQIVzid9L0bTmqcLIHlbQwKiryPicIoFtpTLnhiYpg/exec', {
         method: 'POST',
         body: JSON.stringify(students),
         headers: {
